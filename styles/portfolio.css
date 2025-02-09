@@ -2,8 +2,7 @@
     background-image:url(/images/header_bg.png) ;
     background-repeat: no-repeat;
     background-position: 100%;
-    width:1600;
-    height: 837;;
+    
 }
 .open-sans-normal {
     font-family: "Open Sans", serif;
@@ -17,6 +16,7 @@ nav ul{
     display: flex;
     margin-right: 51px;
     align-items: center;
+    
 }
 
 .nav-title{
@@ -24,6 +24,11 @@ nav ul{
     font-size: 45px;
 
 }
+.secondary-bg{
+    background-color: antiquewhite;
+
+}
+
 .text-primary{
     color: rgb(237, 3, 3);
 }
@@ -60,6 +65,17 @@ nav{
 .btm-primary:hover{
     background-color: rgb(26, 255, 0);
 }
+.section-title{
+    font-size: 35px;
+    font-weight:bold ;
+    color: black;
+}
+.section-decprition{
+    font-size: 18px;
+    color: black;
+    
+}
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -91,4 +107,47 @@ nav{
     height: 400px;
     padding-bottom: 35px;
    
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.about{
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 130px;
+    margin-bottom: 100px;
+    
+    
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-decription{
+    font-weight: 600;
+}
+.skills{
+    text-align: center;
+    
+    
+    
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+.skill{
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 20px 0px rgb(201, 169, 237) ;
+    background-color: rgb(235, 232, 229);
+    margin-top: 50px;
+
 }
