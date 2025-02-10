@@ -151,3 +151,52 @@ main{
     margin-top: 50px;
 
 }
+.resume-container{
+    display: flex;
+    gap: 44px;
+
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume h3{
+    text-align: center;
+    color: rgb(238, 11, 117);
+}
+.resume-column>.resume-colum-title{
+    
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+    padding-top: 50px;
+}
+footer{
+    display: flex;
+    gap: 150px;
+    margin-top: 40px;
+    border: 2px solid;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+    
+}
+.section-title{
+    
+    padding-left: 150px;
+    
+}
+.section-descrption{
+    padding-left: 20px;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+
+
+}
+
